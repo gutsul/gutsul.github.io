@@ -19,6 +19,7 @@ github:
   repo:           https://github.com/poole/poole
 
 pages_list:
-  About: '/about'
-#  Archive: '/archive'
+  Архів: '/archive'
+  Про нас: '/about'
+
 #  Feed: '/atom.xml'
