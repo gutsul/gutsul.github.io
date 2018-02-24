@@ -1,10 +1,10 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            VinnytsiaTeam
-tagline:          Вчимося разом.
+tagline:          Learning together.
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
@@ -19,7 +19,7 @@ github:
   repo:           https://github.com/poole/poole
 
 pages_list:
-  Архів: '/archive'
-  Про нас: '/about'
+  Archive: '/archive'
+  About: '/about'
 
 #  Feed: '/atom.xml'
