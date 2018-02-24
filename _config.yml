@@ -6,14 +6,19 @@ title:            VinnytsiaTeam
 tagline:          Вчимося разом2.
 url:              http://getpoole.com
 paginate:         1
-baseurl:          /
+baseurl:          ""
 author:
   name:           Yuriy Grigortsevich
   url:
   email:          GrigortsevichYuriy@gmail.com
 
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
 # Custom vars
-version:          1.0.0
+version:          2.0.0
 github:
   repo:           https://github.com/poole/poole
 
@@ -21,4 +26,7 @@ pages_list:
   Архів: '/archive'
   Про нас: '/about'
 
-#  Feed: '/atom.xml'
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
